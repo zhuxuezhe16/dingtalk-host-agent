@@ -1,0 +1,21 @@
+{
+  "name": "dingtalk-host-agent",
+  "version": "1.0.0",
+  "description": "通过钉钉机器人远程监控和操作 macOS 主机",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "dingtalk-stream": "^2.1.4",
+    "node-pty": "^1.0.0",
+    "systeminformation": "^5.23.0",
+    "dotenv": "^16.4.0",
+    "strip-ansi": "^7.1.0",
+    "axios": "^1.7.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
